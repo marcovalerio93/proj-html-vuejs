@@ -8,8 +8,7 @@
                 <ul>
                     <li v-for="(link, index) in links" :key="index">
                         <a :href="link.url" :class="link.active?'active':''">{{link.text}}</a>
-                    </li>
-                    
+                    </li>   
                 </ul>
             </nav>
             <div class="center">
@@ -121,7 +120,7 @@ export default {
                     margin-bottom: 20px;
                 }
                 p{
-                    margin-bottom: 20px;
+                    margin-bottom: 30px;
                 }
                 .btn{
                     padding: 10px 20px;
