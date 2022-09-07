@@ -6,14 +6,15 @@
       </div>
       <div class="grid container-main">
         <div class="post " v-for="(post, index) in posts" :key="index">
+          <!-- collegamento img non funzionate 
+          <img :src="post.img" alt="review"> -->
           <img src="../assets/images/review_1-compressor.jpg" alt="review">
           <div class="post-r">
             <p class="text">{{post.text}}</p>
             <p class="name">{{post.name}}</p>
             
           </div>
-      </div>
-
+        </div>
       </div>
       
       
@@ -61,6 +62,7 @@ export default {
   div.grid{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 100px;
 
     
 
