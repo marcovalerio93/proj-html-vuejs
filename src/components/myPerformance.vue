@@ -22,7 +22,7 @@
 
 <script>
 export default {
-    name: "myPerformance"
+    name: "MyPerformance"
 
 }
 </script>
@@ -33,6 +33,7 @@ export default {
     div.grid-3{
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 100px;
         
         img{
             flex-basis: 33%;

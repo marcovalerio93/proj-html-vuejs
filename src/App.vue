@@ -5,6 +5,7 @@
     <MyContent/>
     <MyResults/>
     <MyPerformance/>
+    <MyQuote/>
     <MyTrainers/>
     <MyFooter/>
 
@@ -18,6 +19,7 @@ import MyClass from './components/MyClass.vue';
 import MyContent from './components/MyContent.vue';
 import MyResults from './components/MyResults.vue';
 import MyPerformance from './components/MyPerformance.vue';
+import MyQuote from './components/MyQuote.vue';
 import MyTrainers from './components/MyTrainers.vue';
 import MyFooter from './components/MyFooter.vue';
 
@@ -31,6 +33,7 @@ export default {
     MyContent,
     MyResults,
     MyPerformance,
+    MyQuote,    
     MyTrainers,
     MyFooter
   }
