@@ -10,11 +10,12 @@
             <div class="conatiner-main">
                 <img src="../assets/images/home_img-compressor-400x222.jpg" alt="">
                 <div class="input">
-                    <h3>Nome</h3>
+                    <h3>Sing Up For A Free Training Session!</h3>
+                    <h5>Nome</h5>
                     <input class="name" type="text">
-                    <h3>Email</h3>
+                    <h5>Email</h5>
                     <input type="text"> <br>
-                    <button class="btn-red">START NOW</button>
+                    <button class="btn-red">START NOW!</button>
                 </div>
             
         </div>
@@ -63,23 +64,43 @@ export default {
         background-color: #1f2123 ;
 
         div.conatiner-main{
-            width: 50%;
+            width: 60%;
             margin: auto;
             display: flex;
             justify-content: space-between;
 
             img{
-                padding:50px 10px;
+                height: 340px;
+                padding: 50px 20px;
             }
             div.input{
-                padding: 50px 10px;
-                
+                padding: 50px 20px;
+
                 h3{
-                    color: #fff;
+                    color: #fefefe;
+                    margin-bottom: 40px;
+                }
+                
+                h5{
+                    color: #aaa9a9;
+                    margin-bottom: 10px;
                 }
                 input{
                     width: 350px;
+                    height: 30px;
+                    border: solid 1px #aaa9a9;
+                    background-color: #1f2123;
+                    margin-bottom:20px
+                    
                 }
+                .btn-red{
+                    width: 350px;
+                    height: 40px;
+                    margin-top:10px;
+                    background-color: #d3615e;
+                    color: #fefefe;
+                }
+
             }
         }
     }

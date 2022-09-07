@@ -2,10 +2,12 @@
   <div id="app">
     <HeaderJambo/>
     <myClass/>
+    <myContent/>
     <myResults/>
     <myPerformance/>
     <myTrainers/>
     <myFooter/>
+
   </div>
 </template>
 
@@ -13,6 +15,7 @@
 
 import HeaderJambo from './components/HeaderJambo.vue';
 import myClass from './components/myClass.vue';
+import myContent from './components/myContent.vue';
 import myResults from './components/myResults.vue';
 import myPerformance from './components/myPerformance.vue';
 import myTrainers from './components/myTrainers.vue';
@@ -25,6 +28,7 @@ export default {
   components: {
     HeaderJambo,
     myClass,
+    myContent,
     myResults,
     myPerformance,
     myTrainers,
