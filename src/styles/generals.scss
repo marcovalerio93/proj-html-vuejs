@@ -4,3 +4,39 @@
     box-sizing:border-box;
     font-family:  sans-serif;
 }
+.bg-ligth{
+    background-color: #25292b;
+    height: 400px;
+}
+.bg-dark{ 
+    background-color: #1f2123 ;
+    height: 500px;
+}
+div.center{
+    text-align: center;
+    color: #fefefe;
+    padding-top: 100px;
+    height: 400px;
+}
+div.conatiner-main{
+    width: 60%;
+    margin: auto;
+}
+h2{
+    padding: 15px;
+}
+.divider-xx{
+    margin-bottom:30px;
+}
+.btn{
+    padding: 10px 20px;
+    border: solid 1px #aeafae;
+    background: none;
+    color: #aeafae;
+    font-size: 10px;
+&:hover{
+        border:solid 1px #d3615e;
+        color: #d3615e;
+        font-size: 15px;
+        }
+}

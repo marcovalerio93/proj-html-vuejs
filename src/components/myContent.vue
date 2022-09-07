@@ -35,7 +35,7 @@
 <script>
 export default {
 
-    name: "myContent",
+    name: "MyContent",
 
 }
 </script>

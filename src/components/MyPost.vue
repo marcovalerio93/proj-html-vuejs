@@ -1,19 +1,16 @@
 <template>
-  <div class="bg-ligth ">
-     <div class="center ">
-          <h2> REAL WORLD RESULTS</h2>
-          <img class="divider-xx" src='../assets/images/divider-xx-red.png' alt="">
-      </div>
-      
-      
+  <div>
+    <div class="post conatiner-main">
+        <p>{{post.text}}</p>
+        <p>{{post.name}}</p>
+    </div>
+
   </div>
 </template>
 
 <script>
-
-
 export default {
-    name: "MyResults",
+    name: "MyPost",
     data() {
       return{
         posts:[
@@ -32,15 +29,16 @@ export default {
         ]
       }
     }
-    
+
+
 }
 </script>
 
 <style scoped lang="scss">
-  @import '../styles/generals.scss';
-
- 
-
-
+    @import '../styles/generals.scss';
+    p{
+        color: #fff;
+    }
+    
 
 </style>

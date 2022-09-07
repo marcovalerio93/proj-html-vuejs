@@ -11,7 +11,7 @@
                     </li>   
                 </ul>
             </nav>
-            <div class="center">
+            <div class="jambo-center">
                 <h1>NO PAIN NO GAIN</h1>
                 <p>Motivation in wath gets you started. Habitis what keeps you going.</p>
                 <button class="btn">JOIN US TODAY</button>
@@ -58,7 +58,7 @@ export default {
                     text:'BLOG',
                     url:'#',
                     active: false                   
-                },
+                }
 
             ]
         }
@@ -110,7 +110,7 @@ export default {
                 }
 
             }
-            div.center{
+            div.jambo-center{
                 text-align: center;
                 color: #fefefe;
                 margin-top: 180px;
@@ -121,18 +121,6 @@ export default {
                 }
                 p{
                     margin-bottom: 30px;
-                }
-                .btn{
-                    padding: 10px 20px;
-                    border: solid 1px #aeafae;
-                    background: none;
-                    color: #aeafae;
-                    font-size: 10px;
-                &:hover{
-                        border:solid 1px #d3615e;
-                        color: #d3615e;
-                        font-size: 15px;
-                        }
                 }
             }
         }

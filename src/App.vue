@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <HeaderJambo/>
-    <myClass/>
-    <myContent/>
-    <myResults/>
-    <myPerformance/>
-    <myTrainers/>
-    <myFooter/>
+    <MyClass/>
+    <MyContent/>
+    <MyResults/>
+    <MyPerformance/>
+    <MyTrainers/>
+    <MyFooter/>
 
   </div>
 </template>
@@ -14,12 +14,12 @@
 <script>
 
 import HeaderJambo from './components/HeaderJambo.vue';
-import myClass from './components/myClass.vue';
-import myContent from './components/myContent.vue';
-import myResults from './components/myResults.vue';
-import myPerformance from './components/myPerformance.vue';
-import myTrainers from './components/myTrainers.vue';
-import myFooter from './components/myFooter.vue';
+import MyClass from './components/MyClass.vue';
+import MyContent from './components/MyContent.vue';
+import MyResults from './components/MyResults.vue';
+import MyPerformance from './components/MyPerformance.vue';
+import MyTrainers from './components/MyTrainers.vue';
+import MyFooter from './components/MyFooter.vue';
 
 
 
@@ -27,12 +27,12 @@ export default {
   name: 'App',
   components: {
     HeaderJambo,
-    myClass,
-    myContent,
-    myResults,
-    myPerformance,
-    myTrainers,
-    myFooter
+    MyClass,
+    MyContent,
+    MyResults,
+    MyPerformance,
+    MyTrainers,
+    MyFooter
   }
 }
 </script>
