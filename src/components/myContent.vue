@@ -1,6 +1,6 @@
 <template>
   <div class="bg-img">
-    <div class="conatiner-main">
+    <div class="container-main">
         <div class="content">
             <i class="fa-solid fa-link-slash"></i>
             <h4>Strength &amp; Condition</h4>
@@ -41,13 +41,14 @@ export default {
 </script>
 
 <style socped lang="scss">
+
     div.bg-img{ 
         background-image: url(../assets/images/gym_bkgd_bw-compressor.jpg) ;
         height: 400px;
         background-size: cover;
         background-position: center;
 
-        div.conatiner-main{
+        div.container-main{
             width: 60%;
             margin: auto;
             display: flex;

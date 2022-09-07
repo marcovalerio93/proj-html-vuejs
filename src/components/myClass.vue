@@ -7,7 +7,7 @@
             <p>At Avada Gym, evrything we do fromtop to bottom is of heghest quality to enurse we're equipped <br> to help you reach your goals of a healty and fit lifestyle.</p>
         </div>
         <div class="bg-dark">
-            <div class="conatiner-main d-flex">
+            <div class="container-main d-flex">
                 <img class="img-bg" src="../assets/images/home_img-compressor-400x222.jpg" alt="">
                 <div class="input">
                     <h3>Sing Up For A Free Training Session!</h3>
