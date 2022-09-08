@@ -46,4 +46,6 @@ export default {
 
   @import './styles/generals.scss';
 
+  @import './styles/grid.scss';
+
 </style>

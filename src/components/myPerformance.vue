@@ -38,6 +38,9 @@ export default {
         img{
             flex-basis: 33%;
             padding: 20px;
+        &:hover{
+            transform: scale(1.1);
+        }
         }
     }
 
